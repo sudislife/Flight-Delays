@@ -1,12 +1,14 @@
 # Flight Delays Analysis
 *By Sudaksh Mishra*
+
+
 This project uses the Flight Delays dataset from Kaggle ([link](https://www.kaggle.com/competitions/flight-delays-fall-2018/data)). This data consists of flight delays in the year 2018 and consists of attributes such as the date, departure time, unique carrier, origin, destination, and distance between origin and destination airports.
 
 ## Data Exploration
 ### What does the data distribution look like?
 ![Data Distribution (If you see this, please contact me and let me know)](https://raw.githubusercontent.com/sudislife/Flight-Delays/main/ReadmePlots/Data%20Distribution.png)
 
-The data seems to be clearly have a lot more data points for non delays.
+The data seems to clearly have a lot more data points for non delays.
 
 ### What does the distribution of the different carriers look like?
 ![Airline Carrier Distribution (If you see this, please contact me and let me know)](https://raw.githubusercontent.com/sudislife/Flight-Delays/main/ReadmePlots/Airline%20Carrier%20Distribution.png)
