@@ -4,6 +4,13 @@
 
 This project uses the Flight Delays dataset from Kaggle ([link](https://www.kaggle.com/competitions/flight-delays-fall-2018/data)). This data consists of flight delays in the year 2018 and consists of attributes such as the date, departure time, unique carrier, origin, destination, and distance between origin and destination airports.
 
+## Problems which I found and my fixes for them
+### The Departure Time column was between the set [0, 25] instead of [0, 24]
+To solve this I increased the day by one if the the time was >= 24 hours. Then I checked if increasing day by one switched it to the next month.
+
+### Test data has origins/destination locations which are not in the train data origin/destinations
+As there are destinations which are not in train, I will have to make an unknow token 
+
 ## Data Exploration
 ### What does the data distribution look like?
 ![Data Distribution (If you see this, please contact me and let me know)](https://raw.githubusercontent.com/sudislife/Flight-Delays/main/ReadmePlots/Data%20Distribution.png)
